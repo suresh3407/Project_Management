@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+    <servlet>
+        <servlet-name>controller</servlet-name>
+        <servlet-class>com.bigdata.projectmanagement.controller.Controller</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>homeController</servlet-name>
+        <servlet-class>com.bigdata.projectmanagement.controller.HomeController</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>clientRegistration</servlet-name>
+        <servlet-class>com.bigdata.projectmanagement.controller.ClientRegistration</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>projectRegistration</servlet-name>
+        <servlet-class>com.bigdata.projectmanagement.controller.ProjectRegistration</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>controller</servlet-name>
+        <url-pattern>/controller</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>homeController</servlet-name>
+        <url-pattern>/</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>clientRegistration</servlet-name>
+        <url-pattern>/register-client</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>projectRegistration</servlet-name>
+        <url-pattern>/projectRegistration</url-pattern>
+    </servlet-mapping>
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+</web-app>

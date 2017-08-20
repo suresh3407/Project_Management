@@ -1,0 +1,15 @@
+com\bigdata\projectmanagment\DAO\GenericDao.class
+com\bigdata\projectmanagment\DAOIMP\ClientDAOImp.class
+com\bigdata\projectmanagment\DAOIMP\ProjectDAOImp.class
+com\bigdata\projectmanagement\config\ViewConfig.class
+com\bigdata\project_management\constraint\TBConstraint.class
+com\bigdata\projectmanagement\controller\ClientRegistration.class
+com\bigdata\projectmanagement\model\Project.class
+com\bigdata\DBWrapper\DBConnection.class
+com\bigdata\projectmanagement\controller\Controller.class
+com\bigdata\project_management\constraint\SQLConstraint.class
+com\bigdata\projectmanagement\model\Client.class
+com\bigdata\projectmanagment\DAO\ProjectDAO.class
+com\bigdata\projectmanagement\controller\HomeController.class
+com\bigdata\projectmanagment\DAO\ClientDAO.class
+com\bigdata\project_management\constraint\DBConstraint.class
